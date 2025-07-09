@@ -46,12 +46,17 @@ a:hover {
 img {
     max-width: 100%;
     border-radius: var(--corners);
+    background-color: var(--primary);
 }
 
 .icons {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    gap: 2rem;
 }
 
 ul svg {
