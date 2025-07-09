@@ -89,3 +89,22 @@ ul svg {
     width: 75%;
 }
 
+@media(min-width: 750px) {
+
+    body {
+        padding: 5rem;
+    }
+
+    .main-article {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: left;
+    }
+
+    .main-article img {
+        max-height: 400px;
+        height: auto;
+        width: auto;
+        margin: 0 0 0 auto;
+    }
+}
