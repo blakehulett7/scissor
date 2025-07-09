@@ -60,6 +60,7 @@ img {
     flex-flow: row wrap;
     align-items: flex-end;
     gap: 2rem;
+    justify-content: center;
 }
 
 ul svg {
@@ -74,3 +75,17 @@ ul svg {
 .social:hover {
     fill: var(--primary)
 }
+
+.main-article {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+}
+
+/* You can also use image cropping... look it up (object-fit, object-position, overflow) */
+.main-article img {
+    margin: 0 auto;
+    width: 75%;
+}
+
