@@ -89,6 +89,27 @@ ul svg {
     width: 75%;
 }
 
+footer {
+    text-align: center;
+}
+
+.footer-column h3 {
+    margin: 0;
+    padding: 0;
+    font-size: calc(var(--base-font-size * 0.85));
+}
+
+.footer-column ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: calc(var(--base-font-size * .85));
+}
+
+.footer-column li {
+    line-height: 2;
+}
+
 @media(min-width: 750px) {
     :root {
         --base-font-size: 1.125rem;
