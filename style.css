@@ -97,11 +97,18 @@ footer {
     text-align: center;
 }
 
+.footer-text {
+    line-height: 1.5;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
 .footer-column ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-size: calc(var(--base-font-size * .85));
+    font-size: calc(var(--base-font-size) * .85);
 }
 
 .footer-column li {
