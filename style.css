@@ -34,6 +34,10 @@ h2 {
     letter-spacing: .25em;
 }
 
+h3 {
+    margin: 0;
+}
+
 p {
     line-height: 1.5;
 }
@@ -91,12 +95,6 @@ ul svg {
 
 footer {
     text-align: center;
-}
-
-.footer-column h3 {
-    margin: 0;
-    padding: 0;
-    font-size: calc(var(--base-font-size * 0.85));
 }
 
 .footer-column ul {
