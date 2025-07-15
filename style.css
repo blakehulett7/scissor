@@ -9,6 +9,7 @@
     --background: #F2F2F2;
     --text: #0D0D0D;
     --corners: 24px 0;
+    --corners-small: 10px 0;
 }
 
 body {
@@ -161,10 +162,10 @@ main {
 
 .project li {
     background-color: var(--accent);
-    border-radius: var(--corners);
+    border-radius: var(--corners-small);
     color: white;
-    padding: .875rem;
-    margin: .875rem;
+    padding: .5rem;
+    margin: .5rem;
 }
 
 @media(min-width: 750px) {
