@@ -127,6 +127,13 @@ footer {
     fill: var(--accent)
 }
 
+/* Projects Section */
+main {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
 @media(min-width: 750px) {
     :root {
         --base-font-size: 1.125rem;
