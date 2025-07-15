@@ -132,10 +132,15 @@ main {
     margin-top: 5rem;
     margin-bottom: 3rem;
     text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 3rem;
 }
 
 .project {
     background-color: white;
+    padding: 3rem;
+    border-radius: var(--corners);
     display: grid;
     grid-template-columns: 1fr;
     gap: 3rem;
@@ -143,6 +148,21 @@ main {
 
 .project img {
     grid-row: 1/2;
+}
+
+.project ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.project li {
+    background-color: var(--accent);
+    border-radius: var(--corners);
+    color: white;
+    padding: .75rem;
+    margin: .75rem;
 }
 
 @media(min-width: 750px) {
